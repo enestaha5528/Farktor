@@ -1,0 +1,2035 @@
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  
+}
+.header{
+    background: linear-gradient(to right, #000e59, #011cac);
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    z-index: index 1;;
+    width: 100%;
+    z-index: 9999;
+}
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.page1{
+    display: block;
+    height: 100vh;
+    background-image: url(lib/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.headersol a {
+    color: #ff4800;
+}
+.sitehead{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.headersol{
+    width: 40%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    
+}
+.headersag{
+    width: 33%;
+    height: 6vh;
+    -color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eticaretacilirmenu{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.urunleracilirmenu{
+    display:none;
+}
+.hakkimizdaacilirmenu{
+    display:none;
+}
+.kulakliksimge {
+    display: flex;
+    align-items: center;
+}
+.eticaretacilirmenusol{
+    width: 45%;
+    height: 50vh;
+    background-color: #e24011;
+}
+.acilirmenusaglinkler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.acilirmenulink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.acilirmenulink{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.acilirmenulinkbaslik{
+    display: flex;
+}
+.eticaretacilirmenusag{
+    width: 45%;
+    height: 50vh;
+    background-color: #fec53f;
+}
+
+.acilirmenu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlink:hover .acilirmenu{
+    display: flex;
+}
+.acilirmenucont{
+    background-color: #fff;
+    width:50%;
+    height: 50vh;
+    
+}
+.number {
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.headerbutton {
+    border-radius: 6px;
+    background: linear-gradient(to top, #e24011, #fec53f);
+    height: 35px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    margin-left: 2vh;
+    transition: 0.5s;
+}
+.headerbutton:hover {
+    transform: scale(1.1);
+}
+.navbar {
+    width: 100%;
+    height: 8.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+}
+.logo {
+    background-image: url("lib/img/farktor.png");
+    background-size: cover; /* Arka plan resminin tamamını kapsayacak şekilde boyutlandırır */
+    background-repeat: no-repeat; /* Arka plan resminin tekrarlanmamasını sağlar */
+    margin-top: -10px;
+    width: 200px;
+    height: 150px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.linkler {
+    display: flex;
+    justify-content: space-around;
+}
+.linkler a {
+    margin-left: 5vh;
+}
+
+/* Mobil menü ve buton stilleri */
+.menu-btn {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-menu a {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.icerik{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+.iceriksolalan{
+    font-size: x-large;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 150px;
+}
+.butonlar {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.uzmanla_tanis{
+    width: 230px !important;
+}
+.butonlar button{
+    border-radius: 60px;
+    background-color: #1356f4;
+    height: 60px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+.butonlar button:hover{
+    background: linear-gradient(to bottom, #00189e, #0026ff);
+}
+
+.buyukdusunur{
+    font-size: 20px;
+    line-height: 10px;
+}
+.buyukyazilim{
+    font-size: 75px;
+    font-weight: 350;
+    line-height: 10px;
+
+}
+.hakediyor{
+    font-size: 70px;
+    line-height: 0px;
+}
+.peticaret{
+    font-size: large;
+
+}
+.solalanyazi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.page2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100rem;
+    background-color: rgb(224, 224, 224);
+}
+.page2cards{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.row1{
+    width: 100%;
+    height: 100px;
+
+}
+.row1 .col1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #000e59;
+}
+.row2{
+    width: 100%;
+    height: 400px;
+   
+}
+.row2 .col1{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px; 
+}
+.row2 .col2{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px; 
+}
+.row2 .col3{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px;
+}
+.row2col{
+    transition: 0.5s !important;
+    width: 24% !important;
+    border-radius: 20px;
+
+}
+.row2cols{
+    color: #000e59;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.page2card{
+}
+
+.page2card .cardimg{
+    border-radius: 10px;
+    background-color: #000e59;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row3{
+    width: 100%;
+    height: 400px;
+
+}
+
+.row3 .col1{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px; 
+}
+.row3 .col2{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px; 
+    margin-top: auto;
+}
+.row3 .col3{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px;
+}
+.row3col{
+    transition: 0.5s;
+    width: 24% !important;
+    border-radius: 20px;
+
+}
+.row3cols{
+    color: #000e59;
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    justify-content: space-around;
+}
+
+.row2, .row3{
+    margin-top: 10vh;
+}
+
+.row1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.cardcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+body > div > div.page2 > div > div.row3 > div > div.row3col.col2 > div > div > center > div > div > img{
+    width: 200px;
+}
+.row3col:hover,.row2col:hover{
+    transform: scale(1.1);
+
+}
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.page3row1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+.page3col1{
+    width: 50%;
+    line-height: 10px;
+    height: 10vh;
+    justify-content: space-between;
+
+}
+.page3col1text{
+    color: #011cac;
+    width: 100%;
+}
+.page3col1text h2{
+    font-size: 30px;
+}
+
+.page3col2{
+    width: 25%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.page3col2button1{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+ 
+}
+.page3col2button2{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+  
+}
+
+.page3col3text{
+    font-size: large;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.page3col3{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    font-size: large;
+    
+}
+.page3col4{
+    justify-content: space-between;
+    
+}
+
+.customerinfo {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    width: 100%; 
+    
+}
+
+.customerinfo .customerinfo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.customer_info_circular {
+    border: 3px solid #000e59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+}
+body > div > div.page3 > div.page3row2 > div.page3col3 > div > p:nth-child(2){
+    width: 90%;
+}
+.row2col:hover , .row3col:hover{
+    transform: scale(1.1); 
+}
+.iceriksagalan img{
+    transition: 0.5s;
+}
+.iceriksagalan img:hover{
+    transform: scale(1.1); 
+}
+.page3row2 {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.vatkalisol{
+    width: 100%;
+}
+.vatkali{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.vatkalitext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fullamoda{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.fullamodatext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.armalife{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.armalifetext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.zenne{
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    transition: 0.5s;
+}
+.zennetext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+#page3col3 {
+    transition: margin-left 1s; /* Geçiş süresini ayarlayın */
+}
+.card-container {
+    display: flex;
+    overflow-x: hidden;
+    width: 100vw; /* Ekran genişliği kadar */
+    box-sizing: border-box; /* Padding ve border'ları dahil et */
+}
+
+.card {
+    min-width: 300px; /* Kart genişliği */
+    max-width: 90%;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; /* Kartların küçülmesini engeller */
+}
+
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer_info_circular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.customer_info_circular p {
+    z-index: 1; 
+    line-height: 5px;
+    margin: 5px;
+    color: red;
+}
+
+.costumerinfovalue {
+    margin-top: 20px;
+    position: relative;
+    z-index: 2; /* Bu öğe animasyonlu öğeden üstte */
+}
+
+.animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 10px;
+    z-index: 1; /* Bu öğe animasyonlu içeriğin altında kalacak */
+    overflow: hidden; /* Animasyonun taşmasını önler */
+}
+
+.animation p {
+    line-height: 5px;
+    animation: animation 2s infinite;
+}
+
+.page4{
+    width: 100%;
+    height: 135vh;
+    background-color: white;
+    margin-top: 20vh;
+}
+.page4baslik{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page4baslik h1{
+    width: 45%;
+    color: #011cac;
+    font-size: 50px;
+}
+.page4button img{
+    width: 30px;
+}
+.page4button button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.page4button button:hover{
+    background-color: #1356f4;
+}
+
+.active {
+    background-color: #1356f4;
+    border-radius: 10px;
+    color: white;
+}
+.active img{
+    filter: invert(1);
+}
+.page4button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page4button img{
+    width: 30px;
+}
+.btn{
+    margin-left: 20px;
+}
+.altalan{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, #0026ff, #000e59);
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    
+}
+.websitesi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+}
+.page4websiteyazi{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.websitesisol{
+    width: 50%;
+}
+.websitesisol p{
+    width: 100%;
+}
+.websitesi button{
+    border-radius: 60px;
+    background-color: #1356f4;
+    height: 60px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.websitesisolalt{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.akillidepo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+    display: none;
+}
+.akillidepoyazi{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.akillideposol{
+    width: 50%;
+}
+.akillideposol p{
+    width: 100%;
+}
+
+.akillidepo button{
+    border-radius: 60px;
+    background-color: #1356f4;
+    height: 60px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.akillideposag{
+    width: 40%;
+}
+.akillideposolalt{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+.nativeuygulama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+    display: none;
+}
+.nativeuygulamayazi{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.nativeuygulamasol{
+    width: 50%;
+}
+.nativeuygulamasol p{
+    width: 100%;
+}
+
+.nativeuygulama button{
+    border-radius: 60px;
+    background-color: #1356f4;
+    height: 60px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.nativeuygulamasag{
+    width: 40%;
+}
+.nativeuygulamasolalt{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pazaryerleri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+    display: none;
+}
+.pazaryerleriyazi{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.pazaryerlerisol{
+    width: 50%;
+}
+.pazaryerlerisol p{
+    width: 100%;
+}
+
+.pazaryerleri button{
+    border-radius: 60px;
+    background-color: #1356f4;
+    height: 60px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.pazaryerlerisag{
+    width: 40%;
+}
+.pazaryerlerisolalt{
+    display: flex;
+    flex-direction: column;
+    
+}
+.scroll-container {
+    width: 100%;
+    height: 118px;
+    overflow: auto;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page5container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+}
+.page6container.dragging {
+    cursor: grabbing;
+}
+.page5{
+    width: 100%;
+    height: 100vh;
+    background-color: #ddd;
+
+}
+
+
+.iletisimform{
+    width: 60%;
+    height: 80vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    height: 50vh;
+
+}
+textarea{
+    resize: none;
+    width: 100%;
+    height: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: none;
+    background-color: #ddd;
+
+}
+.page5baslik{
+    width: 45%;
+    color: #011cac;
+    font-size: 30px;
+}
+.formsolalan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 34vh;
+
+}
+.formsolalan button{
+    border-radius: 60px;
+    background-color: #1356f4;
+    height: 60px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+.formsolalan button:hover{
+    background: linear-gradient(to bottom, #00189e, #0026ff);
+
+}
+input{
+    width: 60%;
+    height: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: none;
+    background-color: #ddd;
+}
+input:focus{
+    border: none;
+}
+form{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formsagalan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    height: 60vh;
+    width: 40%;
+}
+.ustyazi{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.sayfa1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+.sayfa1, .sayfa2 {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    user-select: none; /* Yazı seçimini engeller */
+    pointer-events: none;
+    height: 100vh;
+}
+.page6{
+    width: 100%;
+    height: 90vh;
+    background: radial-gradient(circle, #0026ff, #000e59);
+    
+
+}
+.page6container{
+    display: flex;
+    overflow-x: hidden; /* Kaydırma çubuğunu gizlemek için hidden yapıldı */
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    cursor: grab;
+}
+.page6sayfa1altyazi{
+    display: flex;
+    width: 90%;
+}
+.page6sayfa1altyazisag {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.page6sayfa1cont{
+    display: flex;
+}
+.page6sayfa1sol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+.sayfa2cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sayfa2solalan{
+    color: white;
+    width: 40%;
+    font-size: 25px;
+}
+.page7{
+    width: 100%;
+    height: 120vh;
+    background-color: #ddd
+}
+.buyukblog{
+    width: 70%;
+    height: 70vh;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+
+} 
+.page7container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buyukblogimg{
+    background-image: url("lib/img/buyukblog.webp");
+    width: 100%;
+    height: 350px;
+    z-index: 1;
+    display: flex;
+    align-items: self-end;
+    justify-content: flex-start;
+    border-radius: 20px;
+}
+.page7solalan{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.page7sagalan{
+    align-items: center;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.card1{
+    width: 70%;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: inherit;
+}
+.card2{
+    width: 70%;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    display: flex;
+}
+.card3{
+    width: 70%;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    display: flex;
+}
+.blogakillidepo{
+    margin: 0;
+    width: 130px;
+    height: 25px;
+    background-color: #1356f4;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    color: white;
+}
+.page7baslik{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #011cac;
+    font-size: 30px;
+
+}
+.buyukblogbaslik{
+}
+.buyukblogyazi{
+
+}
+.buyukblogfooter{
+    display: flex;
+    width: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #000e59;
+    font-size: larger;
+    line-height: 0px;
+    
+}
+.buyukblogfootersol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #0026ff;
+}
+.card1solimg{
+    width: 100%;
+    height: 125px;
+    background-image: url(lib/img/page7card1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: center;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.card1sag{
+    width: 60%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.card1solkucukcard{
+    display: flex;
+    width: 100%;
+    height: 125px;
+    align-items: end;
+    font-size: medium;
+    justify-content: space-between;
+}
+.digitalpazarlama{
+    width: 40%;
+    height: 35px;
+    background-color: #1356f4;
+    z-index: 4;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+
+}
+    .googleanalytics{
+        width: 40%;
+        height: 35px;
+        background-color: #1356f4;
+        z-index: 4;
+        border-top-left-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+            font-size: 10px;
+
+    }
+    .card1sol{
+        width: 35%;
+        height: 125px;
+    }
+    .card1footersol{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #0026ff;
+           
+    }
+    .card1footersol img{
+        width: 20px;
+        height: 20px;
+    }
+    .card1footersag{
+        line-height: 0px;
+    }
+    .card1footer{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card3img{
+        width: 100%;
+        height: 125px;
+        background-image: url(lib/img/page7card3.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: center;
+        display: flex;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .card2img{
+        width: 100%;
+        height: 125px;
+        background-image: url(lib/img/page7card2.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: center;
+        display: flex;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .page8{
+        width: 100%;
+        height: 100vh;
+    }
+    .page8container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 58vh;
+        width: 100%;
+    
+    }
+    .page8background{
+        width: 100%;
+        height: 50vh;
+        background: linear-gradient(to top, #000e59, #0026ff);
+    }
+    iframe{
+        width: 40%;
+        height: 40vh;
+        border-radius: 20px;
+    }
+    .page9{
+        width: 100%;
+        height: 100vh;
+        background-color: #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .page9button button:hover {
+        background-color: #1356f4;
+        color: white;
+    }
+    .page9button button {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 200px;
+        height: 80px;
+        border-radius: 10px;
+        transition: 0.5s;
+        border: 1px solid black;
+
+    }
+    .page9button{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 30vh;
+    }
+    .page9button img{
+        width: 30px;
+    }
+    .page9farktor{
+        width: 70%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .page9webmobilesite{
+        width: 70%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        display: none;
+    }
+    .page9baslik{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        color: #011cac;
+        font-size: 20px;
+        
+    }
+    .page9farktorsol {
+        width: 35%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .page9buluthosting{
+        width: 70%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        display: none;
+    }
+    .page9buluthosting{
+        display: none;
+    }
+    .page9farktorsag{
+        width: 60%;
+        border-radius:20px;
+        display: none;
+        font-size: 17px;
+    }
+    .farktorcard {
+        width: 100%;
+        height: 6vh;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: space-around;
+    }
+    .page9farktorbaslik{
+        width: 80%;
+        margin-left: 5%;
+    }
+    .farktoricon{
+        width: 25px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page9farktorsagcont{
+        width: 80%;
+        height: 40vh;
+         background-color: #fff;
+         border-radius: 20px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         transition: 0.5s;
+    }
+    .yazi{
+        display: none;
+        width: 90%;
+    }
+ 
+    .page10{
+        width: 70%;
+        height: 60vh;
+        background-color: white;
+    }
+    .beforeicon{
+        display: none;
+    }
+
+    .fiyatteklifbutton {
+        border-radius: 60px;
+         background-color: #1356f4;
+         height: 60px;
+        width: 150px;
+        border: none;
+        color: white;
+        font-size: 17px;
+    }
+    .teklifal{
+        width: 10%;
+    }
+    .page10{
+        width: 100%;
+        height: 50vh;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .page10container{
+        width: 80%;
+        height: 40vh;
+    }
+    .footeraltalan{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+    }
+    .ustalan{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #fafafa;
+        border-radius: 50px;
+        width: 100%;
+        height:35vh;
+    }
+    .ustalan h1{
+        width: 50%;
+        font-size: 40px;
+        color: #011cac;
+    
+    }
+    .footersolalan{
+        width: 25%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+    .footerlogo img{
+        filter: invert(1);
+        width: 25px;
+    }
+    .footersolalan a{
+        text-decoration: none;
+        color: #000e59;
+    }
+    .footerlogo{
+        display: flex;
+        font-size: 20px;
+    }
+    .footerortaalan{
+        height: 10vh;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+        font-size: 20px;       
+    }
+    .footerortaalancont{
+        height: 10vh;
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 15px;
+    }
+
+    .cizgi{
+        width: 2px;
+        height: 5vh;
+        background-color: black;
+    }
+    .footerlink{
+        width: 10%;
+    }
+    .footersagalan{
+        height: 10vh;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        line-height: 0px;
+        justify-content: end;
+        align-items: self-end;
+    }
+    .footersagalancont{
+        height: 7vh;
+    }
+@keyframes animation {
+    0% {
+        transform: translateY(20px); /* Animasyonun başlangıcı */
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0); /* Animasyonun ortası */
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-20px); /* Animasyonun sonu */
+        opacity: 0;
+    }
+}
+@media only screen and (max-width: 480px) and (max-height : 880px){
+    .scroll-container {
+        width: 100%;
+        height: 118px;
+        cursor: grab;
+    }
+    .content{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .page3col1 {
+        width: 80%;
+        line-height: 29px;
+    }
+    .vatkali{
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .armalife{
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .zenne{
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .fullamoda{
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .page3{
+        overflow: hidden;
+        overflow-x: hidden; /* Yatay kaydırmayı engeller */
+        max-width: 100%;
+    }
+    #page3col3 {
+        margin-top: -5vh;
+        overflow: hidden;
+    }
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Yatay kaydırmayı engeller */
+}
+    .filter {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 150px; 
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); 
+        pointer-events: none; /* Filtrenin altındaki öğelerin tıklanabilir olmasını sağlar */
+        
+    }
+    .page3row2{
+    }
+    .linkler {
+        display: none;
+    }
+    .row3col:hover,.row2col:hover{
+        transform: scale(1.0);
+    
+    }
+    .menu-btn {
+        display: block;
+    }
+
+    .icerik{
+        flex-wrap: wrap;
+    }
+    .page3{
+        display: flex;
+        justify-content: baseline;
+    }
+    .page3col4 img{
+        width: 90%;
+    }
+    .iceriksagalan{
+        display: none;
+    }
+    .iceriksolalan{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        padding-left: 0;
+        margin-top: 10vh;
+    }
+    .navbar{
+        width: 100%;
+        justify-content: space-between;
+        background-color: transparent;
+
+
+    }
+    
+    .linkler{
+        width: 100%;
+    }
+    .buyukdusunur{
+        line-height: 30px;
+    }
+    .buyukyazilim{
+        line-height: 60px;
+        margin-top: -6px;
+        margin-left: 40px;
+    
+    }
+    .hakediyor{
+        line-height: 0px;
+        margin-top: -1vh;
+    }
+    .row1 .col1 {
+        font-size: 20px;
+        color: #000e59;
+    }
+    .row2col{
+        width: 90% !important;
+        height: 55vh !important;
+        margin-top: 20px;
+    }
+    .row3col{
+        width: 85% !important;
+        height: 55vh !important;
+        margin-top: 20px;
+
+    }
+    body > div > div.page2 > div > div.allcard > div.row3 > div > div.row3col.col2 > div > div > center > div > div > img{
+        width: 100px;
+    }
+    .row2cols{
+        flex-direction: column;
+    }
+    .row3cols{
+        flex-direction: column;
+    }
+    .page2{
+        height: 200vh;
+    }
+    .allcard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: no-wrap;
+    }
+    .page3row2{
+        flex-direction: column-reverse;
+        margin-top:20vh;
+        
+    }
+    .page3col4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page3col3{
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        width: 100vw; /* Ekran genişliği kadar */
+        box-sizing: border-box;
+    }
+    .page3col3text{
+        width: 100%;
+    }
+    .page3row1{
+        justify-content: space-around;
+    }
+    .headersol{
+        font-size: 10px;
+    }
+    .headersag{
+        width: 50%;
+    }
+    .header{
+        justify-content: space-between;
+    
+
+    }
+    .sitehead{
+        position: fixed;
+        width: 100%;
+        transition: 0.5s;
+    }
+    .headerbutton{
+        height: 40px;
+    }
+    .headerbutton{
+        width: 100px;
+    }
+    .peticaret{
+        width: 90%;
+    }
+    .butonlar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .butonlar a{
+        margin-top: 20px;
+    }
+    body > div > div.page2 > div > div.allcard > div.row3 > div > div.row3col.col2{
+        margin-top: 20px;
+    }
+    .logo{
+        margin-left: 2px;
+        background-image: url("lib/img/farktorbeyaz.png");
+        background-size: cover; /* Arka plan resminin tamamını kapsayacak şekilde boyutlandırır */
+        background-repeat: no-repeat; /* Arka plan resminin tekrarlanmamasını sağlar */
+        width: 200px;
+        height: 150px;
+    }
+    .allcard{
+        margin-left: 20px;
+    }
+    .cardcontainer p{
+        width: 90%;
+    }
+    .butonlar button{
+        width: 230px;
+    }
+    .page4baslik h1{
+        width: 100%;
+    }
+    .altalan{
+        height: 200px;
+        background: radial-gradient(circle, #0026ff, #000e59); 
+    }
+    .websitesi{
+        flex-direction: column-reverse;
+        color: black;
+
+    }
+    .websitesisag{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .websitesisag img{
+        width: 50%;
+    }
+    .websitesisol{
+        width: 90%;
+        height: 675px;
+    }
+
+
+
+    .akillidepo{
+        display: none;
+    }
+    .nativeuygulama{
+        display: none;
+    }
+    .pazaryerleri{
+        display: none;
+    }
+
+    
+    .akillidepo{
+        flex-direction: column-reverse;
+        color: black;
+        display: none;
+    }
+    .akillideposol{
+        height: 75vh;
+    }
+    .akillideposag{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .akillideposag img{
+        width: 100%;
+    }
+    .akillideposol{
+        width: 90%;
+    }
+
+
+    .nativeuygulama{
+        flex-direction: column-reverse;
+        color: black;
+        display: none;
+    }
+    .nativeuygulamasol{
+        height: 75vh;
+        width: 90%;
+    }
+    .nativeuygulamasag{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nativeuygulamasag img{
+        width: 100%;
+    }
+
+
+    .pazaryerleri{
+        flex-direction: column-reverse;
+        color: black;
+        display: none;
+
+    }
+    .pazaryerlerisol{
+        height: 75vh;
+        width: 90%;
+    }
+    .pazaryerlerisag{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pazaryerlerisag img{
+        width: 100%;
+    }
+    .page4{
+        height: 180vh;
+    }
+    .page5baslik{
+        width: 90%;
+    }
+    .iletisimform{
+        width: 100%;
+    }
+    .page6sayfa1sag{
+        display: none;
+    }
+    .page6sayfa1sol{
+        width: 100%;
+    }
+    .page6sayfa1altyazi{
+        width: 90%;
+    }
+    .page6sayfa1altyazisag{
+        width: 100%;
+    }
+    .page6sayfa1altyazisol{
+        margin-top: 60px;
+    }
+    .sayfa2sagalan{
+        display: none;
+    }
+    .sayfa2solalan{
+        width: 90%;
+    }
+    .page7container{
+        flex-direction: column;
+        flex-direction: column;
+        height: 175vh;
+    
+    }
+    .buyukblog{
+        width: 100%;
+        height: 90vh;
+    }
+    .buyukblogfooter{
+        width: 50%;
+    }
+    .card1footer{
+        width: 100%;
+    }
+    .page7solalan{
+        width: 90%;
+    }
+    .page7sagalan{
+        width: 90%;
+    }
+    .card1{
+        width: 100%;
+    }
+    body > div.container > div.page7 > div.page7container > div.page7sagalan > div:nth-child(2) > div.card1sag > div.card1footer{
+        justify-content: space-evenly;
+        margin-left: -26px;
+    }
+    .page5baslik{
+        width: 100%;
+        font-size: 20px;
+    }
+    input {
+        width: 100%;
+        margin-left: 16px;
+    }
+    textarea{
+        width: 100%;
+        margin-left: 0;
+    }
+    form{
+
+    }
+    .formsagalan{
+        margin-left: 21px;
+        width: 45%;
+    }
+    .page9farktorsagcont{
+        height: auto;
+        width: auto;
+        font-size: 15px;
+    }
+    
+    .page7{
+        height: 226vh;
+    }
+    iframe{
+        width: 90%;
+    }
+    .page9baslik{
+        width: 90%;
+    }
+    .page9farktor{
+        align-items: center;
+        width: 100%;
+        height: 80vh;
+        font-size: smaller;
+    }
+    .page9webmobilesite {
+        align-items: center;
+        width: 100%;
+        height: 80vh;
+        font-size: smaller;
+    }
+    .page9buluthosting{
+        align-items: center;
+        width: 100%;
+        height: 80vh;
+        font-size: smaller;
+    }
+    .farktorcard{
+        width: 95%;
+        margin-top: 20px;
+    }
+    .page9farktorsag{
+
+    }
+    .page9{
+        height: 150vh;
+    }
+    .page9farktorsol{
+        width: 40%;
+    }
+    .page10container{
+        width: 100%;
+        height: 100vh;
+    }
+    .ustalan{
+        background-color: transparent;
+    }
+    .ustalan h1 {
+        width: 90%;
+        font-size: 35px;
+        color: #011cac;
+    }
+    .teklifal {
+        width: 50%;
+    }
+    .page10{
+        background-color: #ddd;
+        height: 65vh;
+    }
+    .fiyatteklifbutton{
+        height: 50px;
+        width: 260px;
+    }
+    .footersagalan{
+        line-height: 20px;
+        margin-top: 30px;
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footeraltalan{
+        flex-direction: column;
+    }
+    .footersolalan{
+        width: 90%;
+    }
+    .footerortaalan{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .footerortaalancont{
+        width: 90%;
+        flex-direction: column;
+    }
+}

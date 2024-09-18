@@ -1,0 +1,742 @@
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.header{
+    background: linear-gradient(to right, #000e59, #011cac);
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    width: 100%;
+}
+.page1{
+    display: block;
+    height: 100vh;
+    background-image: url(lib/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.headersol a {
+    color: #ff4800;
+}
+.sitehead{
+    position: fixed;
+    width: 100%;
+}
+.headersol{
+    width: 40%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.headersag{
+    width: 33%;
+    height: 6vh;
+    -color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kulakliksimge {
+    display: flex;
+    align-items: center;
+}
+
+
+.number {
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.headerbutton {
+    border-radius: 6px;
+    background: linear-gradient(to top, #e24011, #fec53f);
+    height: 35px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    margin-left: 2vh;
+    transition: 0.5s;
+}
+.headerbutton:hover {
+    transform: scale(1.1);
+}
+.navbar {
+    width: 100%;
+    height: 8.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+}
+.logo {
+    background-image: url("lib/img/farktor.png");
+    background-size: cover; /* Arka plan resminin tamamını kapsayacak şekilde boyutlandırır */
+    background-repeat: no-repeat; /* Arka plan resminin tekrarlanmamasını sağlar */
+    margin-top: -10px;
+    width: 200px;
+    height: 150px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.linkler {
+    display: flex;
+    justify-content: space-around;
+}
+.linkler a {
+    margin-left: 5vh;
+}
+
+/* Mobil menü ve buton stilleri */
+.menu-btn {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-menu a {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.icerik{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+.iceriksolalan{
+    font-size: x-large;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    padding-left: 150px;
+}
+.butonlar {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.uzmanla_tanis{
+    width: 230px !important;
+}
+.butonlar button{
+    border-radius: 60px;
+    background-color: #1356f4;
+    height: 60px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+.butonlar button:hover{
+    background: linear-gradient(to bottom, #00189e, #0026ff);
+}
+
+.buyukdusunur{
+    font-size: 20px;
+    line-height: 10px;
+}
+.buyukyazilim{
+    font-size: 75px;
+    font-weight: 350;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 10px;
+
+}
+.hakediyor{
+    font-size: 70px;
+    line-height: 0px;
+}
+.peticaret{
+    font-size: large;
+
+}
+.solalanyazi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.page2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100rem;
+    background-color: rgb(224, 224, 224);
+}
+.page2cards{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.row1{
+    width: 100%;
+    height: 100px;
+
+}
+.row1 .col1{
+    font-weight: 700;
+    font-size: 35px;
+    color: #000e59;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row2{
+    width: 100%;
+    height: 400px;
+   
+}
+.row2 .col1{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px; 
+}
+.row2 .col2{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px; 
+}
+.row2 .col3{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px;
+}
+.row2col{
+    transition: 0.5s !important;
+    width: 24% !important;
+    border-radius: 20px;
+
+}
+.row2cols{
+    color: #000e59;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card .cardimg{
+    border-radius: 10px;
+    background-color: #000e59;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row3{
+    width: 100%;
+    height: 400px;
+
+}
+
+.row3 .col1{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px; 
+}
+.row3 .col2{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px; 
+    margin-top: auto;
+}
+.row3 .col3{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 400px;
+}
+.row3col{
+    transition: 0.5s;
+    width: 24% !important;
+    border-radius: 20px;
+
+}
+.row3cols{
+    color: #000e59;
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    justify-content: space-around;
+}
+
+.row2, .row3{
+    margin-top: 10vh;
+}
+
+.row1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.cardcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body > div > div.page2 > div > div.row3 > div > div.row3col.col2 > div > div > center > div > div > img{
+    width: 200px;
+}
+.row3col:hover,.row2col:hover{
+    transform: scale(1.1);
+
+}
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.page3row1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+.page3col1{
+    width: 50%;
+    height: 10vh;
+    justify-content: space-between;
+
+}
+.page3col1text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #011cac;
+    width: 100%;
+}
+.page3col1text h2{
+    font-size: 30px;
+}
+
+.page3col2{
+    width: 25%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.page3col2button1{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+ 
+}
+.page3col2button2{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+  
+}
+
+.page3col3text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.page3col3{
+    width: 90%;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    
+}
+.page3col4{
+    justify-content: space-between;
+    
+}
+
+.customerinfo {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    width: 100%; 
+    
+}
+
+.customerinfo .customerinfo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.customer_info_circular {
+    border: 3px solid #000e59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+}
+body > div > div.page3 > div.page3row2 > div.page3col3 > div > p:nth-child(2){
+    width: 90%;
+}
+.row2col:hover , .row3col:hover{
+    transform: scale(1.1); 
+}
+.iceriksagalan img{
+    transition: 0.5s;
+}
+.iceriksagalan img:hover{
+    transform: scale(1.1); 
+}
+.page3row2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.vatkalisol{
+    width: 100%;
+}
+.vatkali{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.vatkalitext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fullamoda{
+    position: absolute;
+    margin-left: 180vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.fullamodatext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.armalife{
+    position: absolute;
+    margin-left: 350vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.armalifetext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.zenne{
+    position: absolute;
+    margin-left: 520vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.zennetext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+#page3col3 {
+    transition: margin-left 1s; /* Geçiş süresini ayarlayın */
+    margin-top: -25vh;
+}
+@media only screen and (max-width: 480px) and (max-height : 880px){
+    .vatkali{
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .armalife{
+        margin-left: 90vh;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .zenne{
+        margin-left: 140vh;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .fullamoda{
+        margin-left: 45vh !important;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .page3{
+        overflow: hidden;
+        overflow-x: hidden; /* Yatay kaydırmayı engeller */
+        max-width: 100%;
+    }
+    #page3col3 {
+        margin-top: -5vh;
+        overflow: hidden;
+    }
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Yatay kaydırmayı engeller */
+}
+    .filter {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 150px; 
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); 
+        pointer-events: none; /* Filtrenin altındaki öğelerin tıklanabilir olmasını sağlar */
+        
+    }
+    .page3row2{
+    }
+    .linkler {
+        display: none;
+    }
+    .row3col:hover,.row2col:hover{
+        transform: scale(1.0);
+    
+    }
+    .menu-btn {
+        display: block;
+    }
+
+    .icerik{
+        flex-wrap: wrap;
+    }
+    .page3{
+        display: flex;
+        justify-content: baseline;
+    }
+    .page3col4 img{
+        width: 90%;
+    }
+    .iceriksagalan{
+        display: none;
+    }
+    .iceriksolalan{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        padding-left: 0;
+        margin-top: 10vh;
+    }
+    .navbar{
+        width: 100%;
+        justify-content: space-between;
+        background-color: transparent;
+
+
+    }
+    
+    .linkler{
+        width: 100%;
+    }
+    .buyukdusunur{
+        line-height: 30px;
+    }
+    .buyukyazilim{
+        line-height: 60px;
+        margin-top: -6px;
+        margin-left: 40px;
+    
+    }
+    .hakediyor{
+        line-height: 0px;
+        margin-top: -1vh;
+    }
+    .row1 .col1 {
+        font-size: 20px;
+        color: #000e59;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .row2col{
+        width: 90% !important;
+        height: 55vh !important;
+        margin-top: 20px;
+    }
+    .row3col{
+        width: 85% !important;
+        height: 55vh !important;
+        margin-top: 20px;
+
+    }
+    body > div > div.page2 > div > div.allcard > div.row3 > div > div.row3col.col2 > div > div > center > div > div > img{
+        width: 100px;
+    }
+    .row2cols{
+        flex-direction: column;
+    }
+    .row3cols{
+        flex-direction: column;
+    }
+    .page2{
+        height: 200vh;
+    }
+    .allcard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: no-wrap;
+    }
+    .page3row2{
+        flex-direction: column-reverse;
+        margin-top:20vh;
+        
+    }
+    .page3col4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page3col3{
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        width: 100vw; /* Ekran genişliği kadar */
+        box-sizing: border-box;
+    }
+    .page3col3text{
+        width: 100%;
+    }
+    .page3row1{
+        justify-content: space-around;
+    }
+    .headersol{
+        font-size: 10px;
+    }
+    .headersag{
+        width: 50%;
+    }
+    .header{
+        justify-content: space-between;
+    
+
+    }
+    .sitehead{
+        position: fixed;
+        width: 100%;
+        transition: 0.5s;
+    }
+    .headerbutton{
+        height: 40px;
+    }
+    .headerbutton{
+        width: 100px;
+    }
+    .peticaret{
+        width: 90%;
+    }
+    .butonlar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .butonlar a{
+        margin-top: 20px;
+    }
+    body > div > div.page2 > div > div.allcard > div.row3 > div > div.row3col.col2{
+        margin-top: 20px;
+    }
+    .logo{
+        margin-left: 2px;
+        background-image: url("lib/img/farktorbeyaz.png");
+        background-size: cover; /* Arka plan resminin tamamını kapsayacak şekilde boyutlandırır */
+        background-repeat: no-repeat; /* Arka plan resminin tekrarlanmamasını sağlar */
+        width: 200px;
+        height: 150px;
+    }
+    .allcard{
+        margin-left: 20px;
+    }
+    .cardcontainer p{
+        width: 90%;
+    }
+    .butonlar button{
+        width: 230px;
+    }
+   
+}
